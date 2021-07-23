@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view>加速度计</view>
+  <view>x:{{x_a}}</view>
+  <view>y:{{y_a}}</view>
+  <view>z:{{z_a}}</view>
+  <text>\n</text>
+
+  <view>陀螺仪</view>
+  <view>x:{{x_g}}</view>
+  <view>y:{{y_g}}</view>
+  <view>z:{{z_g}}</view>
+  <text>\n</text>
+
+  <button type="primary" bindtap="startAccelerometer">打开加速度监听</button>
+  <button type="primary" bindtap="stopAccelerometer">关闭加速度监听</button>
+  <button type="primary" bindtap="startGyroscope">打开陀螺仪监听</button>
+  <button type="primary" bindtap="stopGyroscope">关闭陀螺仪监听</button>
+
+</view>
